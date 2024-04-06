@@ -1,4 +1,4 @@
-FROM php:7-apache
+FROM php:8.2.17RC2-apache
 
 COPY ./app /var/www/html
 COPY ./docs /var/www/docs
